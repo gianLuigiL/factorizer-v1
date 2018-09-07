@@ -38,12 +38,11 @@
 				addHint('The number must start from 2.');
 				break;
 			case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8:
-				addEta('Estimated Time: Now.');
+				addEta('Estimated Time: Right now.');
 				if(this.value < 2) {
 					addEta('Estimated Time: N/A.');
 					addHint('The number must start from 2.');
 				} else {
-					addEta('Estimated Time: Right now.');
 					removeHint();
 				}
 				break;
